@@ -1,7 +1,18 @@
 aid: bluetalon
 name: Bluetalon
-description: Bluetalon is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  BlueTalon was a data-centric security company founded in 2013 and headquartered
+  in Redwood City, California, that provided centralized data access control, dynamic
+  data masking, and policy enforcement across big-data and hybrid data environments
+  (Hadoop, Spark, relational databases, and cloud data stores). Its platform let
+  enterprises define and enforce fine-grained authorization, auditing, and data-
+  protection policies from a single control point. BlueTalon was backed by DCVC
+  (Data Collective) among other investors, and was acquired by Microsoft in 2019,
+  with its technology folded into Microsoft's Azure data-governance and security
+  portfolio. The company no longer operates independently: bluetalon.com is no
+  longer resolvable and the GitHub organization retains only archived, deprecated
+  repositories. This profile is retained as a network record of an acquired
+  provider; there is no live public API surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/bluetalon/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +20,44 @@ x-backed-by:
 - dcvc
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: Microsoft
+x-acquired-year: 2019
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Data Security
+- Data Access Control
+- Data Masking
+- Data Governance
+- Big Data
+- Authorization
+- Acquired
+image: https://avatars.githubusercontent.com/u/18296775?v=4
+common:
+- type: GitHubOrganization
+  url: https://github.com/bluetalon
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
