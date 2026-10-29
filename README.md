@@ -64,6 +64,34 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Bluetalon is a company surfaced as a portfolio company of dcvc and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+> **Acquired or rebranded.** This company was acquired, merged or renamed. Its API, if it still exists, is offered under another name. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: dcvc
+BlueTalon was a data-centric security company founded in 2013 and headquartered in Redwood City, California, that provided centralized data access control, dynamic data masking, and policy enforcement across big-data and hybrid data environments (Hadoop, Spark, relational databases, and cloud data stores). Its platform let enterprises define and enforce fine-grained authorization, auditing, and data- protection policies from a single control point. BlueTalon was backed by DCVC (Data Collective) among other investors, and was acquired by Microsoft in 2019, with its technology folded into Microsoft's Azure data-governance and security portfolio. The company no longer operates independently: bluetalon.com is no longer resolvable and the GitHub organization retains only archived, deprecated repositories. This profile is retained as a network record of an acquired provider; there is no live public API surface to enrich.
+
+**Areas:** Company · Data Security · Data Access Control · Data Masking · Data Governance · Big Data · Authorization · Acquired
+
+## Bluetalon on APIs.io (historical record)
+
+Everything profiled for Bluetalon is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bluetalon/](https://apis.io/providers/bluetalon/)** — or go straight to one of the APIs or properties below.
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [GitHub](https://github.com/bluetalon)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as acquired or rebranded, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Bluetalon: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bluetalon/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
